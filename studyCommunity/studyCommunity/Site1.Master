@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="studyCommunity.Site1" %>
+<%@ Register src="UserControl/dh.ascx" tagname="dh" tagprefix="uc1" %>
+<%@ Register src="UserControl/entry.ascx" tagname="entry" tagprefix="uc2" %>
+<%@ Register src="UserControl/bottomT.ascx" tagname="bottomT" tagprefix="uc3" %>
+<%@ Register src="UserControl/userBulletinInfo.ascx" tagname="userBulletinInfo" tagprefix="uc4" %>
+<%@ Register src="UserControl/userSound.ascx" tagname="userSound" tagprefix="uc5" %>
+<%@ Register src="UserControl/userVideo.ascx" tagname="userVideo" tagprefix="uc6" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/StyleSheet1.css" type="text/css" rel="Stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="margin:0 auto; width:1002px">
+       <uc1:dh ID="dh1" runat="server" />
+        <div style="margin:0 auto; width:802px;">
+            <div id="logined">
+                <asp:Panel ID="PanelEntry" runat="server">
+                    <uc2:entry ID="entry1" runat="server" />
+                </asp:Panel>
+                <asp:Panel ID="PanelHello" runat="server">
+                    欢迎<asp:Label ID="UserName" runat="server"></asp:Label>
+                    登陆！<asp:Button ID="btnLose" runat="server" Text="退出登陆" 
+                        onclick="btnLose_Click" CausesValidation="False" />
+                </asp:Panel>
+            </div>
+            <table width="802px">
+                <tr>
+                    <td colspan="2" class="tdBgImg">
+                    
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="width:30%">
+                        <uc4:userBulletinInfo ID="userBulletinInfo1" runat="server" />
+                        <uc5:userSound ID="userSound1" runat="server" />
+                        <uc6:userVideo ID="userVideo1" runat="server" />
+                    </td>
+                    <td align="center" style="width:70%"> 
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>                                
+                    </td>  
+                </tr>
+            </table>
+        </div>
+        <uc3:bottomT ID="bottomT1" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

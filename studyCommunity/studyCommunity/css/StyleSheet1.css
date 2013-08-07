@@ -1,0 +1,76 @@
+﻿.login
+{
+     background-image:url(../images/index_03.jpg);
+     width:802px; 
+     height:33px;
+    }
+    .userBulletinInfo
+    {
+         background-image:url(../images/gonggao.gif);
+         width:239px; 
+         height:29px
+        }
+        .userSound
+        {
+            background-image:url(../images/yysp.gif); 
+            width:239px; 
+            height:29px
+            }
+            .userVideo
+            {
+                background-image:url(../images/spph.gif); 
+                width:239px; 
+                height:29px
+                }
+                .search
+                {
+                    background-image:url(../images/sousuolangif.gif); 
+                    width:557px; 
+                    height:29px
+                    }
+                    marquee
+                    {
+                       width: 236px; 
+                       height: 133px 
+                        }
+                        #logined
+                        {
+                            background-image:url(../images/index_03.jpg); 
+                            width:802px; 
+                            }
+                            .tdBgImg
+                            {
+                                background-image:url(../images/index_05.jpg); 
+                                width:802px; 
+                                height:126px
+                                }
+                                .tdDLine
+                                {
+                                    background-image:url(../images/dline.gif)
+                                    }
+                                    .redtd
+                                    {
+                                        color:Red;   
+                                        }
+                                        .tdZchy
+                                        {
+                                            background-image:url(../images/zchy.gif); 
+                                            width:557px; 
+                                            height:29px
+                                            }
+                                            .tableZc
+                                            {
+                                                width:557px; 
+                                                background-color: #C0C0C0;
+                                                }
+                                                h1
+                                                {
+                                                    color: #F7368B;
+                                                    }
+                                                    .manageLogin
+                                                    {
+                                                        background-image:url(../images/htbj.JPG);
+                                                        margin:0 auto; 
+                                                        width:453px;
+                                                        height:293px
+                                                        }

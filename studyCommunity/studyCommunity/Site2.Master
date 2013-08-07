@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="studyCommunity.Site2" %>
+<%@ Register src="UserControl/dh.ascx" tagname="dh" tagprefix="uc1" %>
+<%@ Register src="UserControl/entry.ascx" tagname="entry" tagprefix="uc2" %>
+<%@ Register src="UserControl/bottomT.ascx" tagname="bottomT" tagprefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/StyleSheet1.css" type="text/css" rel="Stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="margin:0 auto; width:1002px">
+       <uc1:dh ID="dh1" runat="server" />
+        <div style="margin:0 auto; width:802px;">
+            <table width="802px">
+                <tr>
+                    <td class="tdBgImg">
+                    
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="center">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td> 
+                </tr>
+            </table>
+        </div>
+        <uc3:bottomT ID="bottomT1" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B0BA549-28B6-4B33-82B6-5E4DB2702A4F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>studyCommunity</RootNamespace>
+    <AssemblyName>studyCommunity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bulletinInfo.aspx" />
+    <Content Include="css\StyleSheet1.css" />
+    <Content Include="index.aspx" />
+    <Content Include="issuance.aspx" />
+    <Content Include="manageLogin.aspx" />
+    <Content Include="Registe.aspx" />
+    <Content Include="searchList.aspx" />
+    <Content Include="seekPassWord.aspx" />
+    <Content Include="seeTutorial.aspx" />
+    <Content Include="Tutorial.aspx" />
+    <Content Include="TutorialList.aspx" />
+    <Content Include="UserControl\bottomT.ascx" />
+    <Content Include="UserControl\dataPaging.ascx" />
+    <Content Include="UserControl\dh.ascx" />
+    <Content Include="UserControl\entry.ascx" />
+    <Content Include="error.aspx" />
+    <Content Include="images\bei.GIF" />
+    <Content Include="images\dengl.jpg" />
+    <Content Include="images\denglu.gif" />
+    <Content Include="images\dline.gif" />
+    <Content Include="images\fabuanniu_01.jpg" />
+    <Content Include="images\fabuanniu_02.jpg" />
+    <Content Include="images\fabuanniu_03.jpg" />
+    <Content Include="images\fabuanniu_04.gif" />
+    <Content Include="images\fbjc.gif" />
+    <Content Include="images\fbjc.jpg" />
+    <Content Include="images\fbjiaoce 拷贝.jpg" />
+    <Content Include="images\gld.JPG" />
+    <Content Include="images\glend.JPG" />
+    <Content Include="images\gltop.GIF" />
+    <Content Include="images\gonggao.gif" />
+    <Content Include="images\htbj.JPG" />
+    <Content Include="images\indextubiao 拷贝.jpg" />
+    <Content Include="images\indextubiao.jpg" />
+    <Content Include="images\index_01.jpg" />
+    <Content Include="images\index_02.jpg" />
+    <Content Include="images\index_03.jpg" />
+    <Content Include="images\index_04.jpg" />
+    <Content Include="images\index_05.jpg" />
+    <Content Include="images\index_06.jpg" />
+    <Content Include="images\index_08.jpg" />
+    <Content Include="images\jia.GIF" />
+    <Content Include="images\jian.GIF" />
+    <Content Include="images\kaisuo.gif" />
+    <Content Include="images\lianxiwomen 拷贝.jpg" />
+    <Content Include="images\manageIndex_01.jpg" />
+    <Content Include="images\manageIndex_02.jpg" />
+    <Content Include="images\manageIndex_03.jpg" />
+    <Content Include="images\manageIndex_05.jpg" />
+    <Content Include="images\manageIndex_06.jpg" />
+    <Content Include="images\manage_fs .jpg" />
+    <Content Include="images\manage_tc.jpg" />
+    <Content Include="images\menudown.gif" />
+    <Content Include="images\menuup.gif" />
+    <Content Include="images\pangbian.GIF" />
+    <Content Include="images\quxiao.jpg" />
+    <Content Include="images\shipin.gif" />
+    <Content Include="images\shipinketang 拷贝.jpg" />
+    <Content Include="images\sousuo.gif" />
+    <Content Include="images\sousuolangif.gif" />
+    <Content Include="images\spkt.gif" />
+    <Content Include="images\spph.gif" />
+    <Content Include="images\suo.gif" />
+    <Content Include="images\www.GIF" />
+    <Content Include="images\yanzg.jpg" />
+    <Content Include="images\yinpin.gif" />
+    <Content Include="images\ypkt.gif" />
+    <Content Include="images\yuyiketa 拷贝.jpg" />
+    <Content Include="images\yyph.jpg" />
+    <Content Include="images\yysp.gif" />
+    <Content Include="images\zchy.gif" />
+    <Content Include="images\zhuce 拷贝.jpg" />
+    <Content Include="Manage\leftMenu.aspx" />
+    <Content Include="Manage\manageIndex.aspx" />
+    <Content Include="Manage\manage_bulletin.aspx" />
+    <Content Include="Manage\manage_inssuanceTutorial.aspx" />
+    <Content Include="Manage\manage_issuanceBulletin.aspx" />
+    <Content Include="Manage\manage_playSound.aspx" />
+    <Content Include="Manage\manage_seeVideo.aspx" />
+    <Content Include="Manage\manage_sound.aspx" />
+    <Content Include="Manage\manage_soundSpeak.aspx" />
+    <Content Include="Manage\manage_user.aspx" />
+    <Content Include="Manage\manage_video.aspx" />
+    <Content Include="Manage\manage_videoSpeak.aspx" />
+    <Content Include="Manage\rightMenu.aspx" />
+    <Content Include="UserControl\search.ascx" />
+    <Content Include="UserControl\userBulletinInfo.ascx" />
+    <Content Include="UserControl\userSound.ascx" />
+    <Content Include="UserControl\userVideo.ascx" />
+    <Content Include="ValidateCode.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WSValidate.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bulletinInfo.aspx.cs">
+      <DependentUpon>bulletinInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bulletinInfo.aspx.designer.cs">
+      <DependentUpon>bulletinInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="issuance.aspx.cs">
+      <DependentUpon>issuance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="issuance.aspx.designer.cs">
+      <DependentUpon>issuance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manageLogin.aspx.cs">
+      <DependentUpon>manageLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageLogin.aspx.designer.cs">
+      <DependentUpon>manageLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registe.aspx.cs">
+      <DependentUpon>Registe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registe.aspx.designer.cs">
+      <DependentUpon>Registe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="searchList.aspx.cs">
+      <DependentUpon>searchList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchList.aspx.designer.cs">
+      <DependentUpon>searchList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seekPassWord.aspx.cs">
+      <DependentUpon>seekPassWord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seekPassWord.aspx.designer.cs">
+      <DependentUpon>seekPassWord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seeTutorial.aspx.cs">
+      <DependentUpon>seeTutorial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seeTutorial.aspx.designer.cs">
+      <DependentUpon>seeTutorial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial.aspx.cs">
+      <DependentUpon>Tutorial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial.aspx.designer.cs">
+      <DependentUpon>Tutorial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TutorialList.aspx.cs">
+      <DependentUpon>TutorialList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorialList.aspx.designer.cs">
+      <DependentUpon>TutorialList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\bottomT.ascx.cs">
+      <DependentUpon>bottomT.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\bottomT.ascx.designer.cs">
+      <DependentUpon>bottomT.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\dataPaging.ascx.cs">
+      <DependentUpon>dataPaging.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\dataPaging.ascx.designer.cs">
+      <DependentUpon>dataPaging.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\dh.ascx.cs">
+      <DependentUpon>dh.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\dh.ascx.designer.cs">
+      <DependentUpon>dh.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\entry.ascx.cs">
+      <DependentUpon>entry.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\entry.ascx.designer.cs">
+      <DependentUpon>entry.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="error.aspx.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error.aspx.designer.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\leftMenu.aspx.cs">
+      <DependentUpon>leftMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\leftMenu.aspx.designer.cs">
+      <DependentUpon>leftMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manageIndex.aspx.cs">
+      <DependentUpon>manageIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manageIndex.aspx.designer.cs">
+      <DependentUpon>manageIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_bulletin.aspx.cs">
+      <DependentUpon>manage_bulletin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_bulletin.aspx.designer.cs">
+      <DependentUpon>manage_bulletin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_inssuanceTutorial.aspx.cs">
+      <DependentUpon>manage_inssuanceTutorial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_inssuanceTutorial.aspx.designer.cs">
+      <DependentUpon>manage_inssuanceTutorial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_issuanceBulletin.aspx.cs">
+      <DependentUpon>manage_issuanceBulletin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_issuanceBulletin.aspx.designer.cs">
+      <DependentUpon>manage_issuanceBulletin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_playSound.aspx.cs">
+      <DependentUpon>manage_playSound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_playSound.aspx.designer.cs">
+      <DependentUpon>manage_playSound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_seeVideo.aspx.cs">
+      <DependentUpon>manage_seeVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_seeVideo.aspx.designer.cs">
+      <DependentUpon>manage_seeVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_sound.aspx.cs">
+      <DependentUpon>manage_sound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_sound.aspx.designer.cs">
+      <DependentUpon>manage_sound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_soundSpeak.aspx.cs">
+      <DependentUpon>manage_soundSpeak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_soundSpeak.aspx.designer.cs">
+      <DependentUpon>manage_soundSpeak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_user.aspx.cs">
+      <DependentUpon>manage_user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_user.aspx.designer.cs">
+      <DependentUpon>manage_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_video.aspx.cs">
+      <DependentUpon>manage_video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_video.aspx.designer.cs">
+      <DependentUpon>manage_video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\manage_videoSpeak.aspx.cs">
+      <DependentUpon>manage_videoSpeak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\manage_videoSpeak.aspx.designer.cs">
+      <DependentUpon>manage_videoSpeak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage\rightMenu.aspx.cs">
+      <DependentUpon>rightMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage\rightMenu.aspx.designer.cs">
+      <DependentUpon>rightMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl\search.ascx.cs">
+      <DependentUpon>search.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\search.ascx.designer.cs">
+      <DependentUpon>search.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\userBulletinInfo.ascx.cs">
+      <DependentUpon>userBulletinInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\userBulletinInfo.ascx.designer.cs">
+      <DependentUpon>userBulletinInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\userSound.ascx.cs">
+      <DependentUpon>userSound.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\userSound.ascx.designer.cs">
+      <DependentUpon>userSound.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\userVideo.ascx.cs">
+      <DependentUpon>userVideo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\userVideo.ascx.designer.cs">
+      <DependentUpon>userVideo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidateCode.aspx.cs">
+      <DependentUpon>ValidateCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidateCode.aspx.designer.cs">
+      <DependentUpon>ValidateCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WSValidate.asmx.cs">
+      <DependentUpon>WSValidate.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="sound\" />
+    <Folder Include="video\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StudyBll\StudyBll.csproj">
+      <Project>{3FFB5B8A-C48F-4594-9470-B0480D3ECEB8}</Project>
+      <Name>StudyBll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StudyModel\StudyModel.csproj">
+      <Project>{B1855187-DE28-4DE1-95ED-410022AA1740}</Project>
+      <Name>StudyModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site2.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7579</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
